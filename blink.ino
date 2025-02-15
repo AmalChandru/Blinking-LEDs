@@ -24,8 +24,8 @@
 
 // the setup function runs once when you press reset or power the board
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+  // initialize digital pin LED_BUILTIN(PB5) as an output.
+  DDRB = 32;
 }
 
 // the loop function runs over and over again forever

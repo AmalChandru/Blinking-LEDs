@@ -31,8 +31,8 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   PORTB = 32;  // turn the LED on by setting PB5 high
-  delay(1000);                      // wait for a second
+  for (long i = 0; i < 1000000; i++) { PORTB = 32; }  // wait for a sometime
 
-  PORTB = 32;  // turn the LED off by setting PB5 low
-  delay(1000);                      // wait for a second  
+  PORTB = 0;  // turn the LED off by setting PB5 low
+  for (long i = 0; i < 1000000; i++) { PORTB = 0; }  // wait for a second  
 }

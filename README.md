@@ -54,5 +54,5 @@ make clean
 ```
 
 ## 📚 Source Material
-This repository is the source material for the talk **["Blinking LEDs: For the Brave and the Curious"](https://github.com/AmalChandru/Blinking-LEDs/blob/main/Blinking%20LEDs%3A%20For%20the%20Brave%20and%20Curious.pdf)**. 💡
+This repository is the source material for the talk **["Blinking LEDs: For the Brave and the Curious"](https://github.com/AmalChandru/Blinking-LEDs/blob/main/Blinking%20LEDs%3A%20For%20the%20Brave%20and%20Curious.pdf)**. 
 
